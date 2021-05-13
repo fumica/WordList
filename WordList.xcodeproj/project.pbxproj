@@ -15,6 +15,12 @@
 		5A3433B8264B94440081BA8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3433B6264B94440081BA8C /* LaunchScreen.storyboard */; };
 		5A3433C3264B94450081BA8C /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3433C2264B94450081BA8C /* WordListTests.swift */; };
 		5A3433CE264B94450081BA8C /* WordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3433CD264B94450081BA8C /* WordListUITests.swift */; };
+		5A3433DC264B94720081BA8C /* WordList素材 in Resources */ = {isa = PBXBuildFile; fileRef = 5A3433DB264B94720081BA8C /* WordList素材 */; };
+		5A3433E0264B9F770081BA8C /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3433DF264B9F770081BA8C /* FinishViewController.swift */; };
+		5A3433E2264B9F890081BA8C /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3433E1264B9F890081BA8C /* AddViewController.swift */; };
+		5A3433EA264BBABE0081BA8C /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3433E9264BBABE0081BA8C /* ListTableViewCell.swift */; };
+		5A3433EC264BBBAB0081BA8C /* ListTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3433EB264BBBAB0081BA8C /* ListTableTableViewController.swift */; };
+		5A65ADBD264D6BE600982D2E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A65ADBC264D6BE600982D2E /* QuestionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		5A3433C9264B94450081BA8C /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3433CD264B94450081BA8C /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
 		5A3433CF264B94450081BA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3433DB264B94720081BA8C /* WordList素材 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "WordList素材"; sourceTree = "<group>"; };
+		5A3433DF264B9F770081BA8C /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		5A3433E1264B9F890081BA8C /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		5A3433E9264BBABE0081BA8C /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		5A3433EB264BBBAB0081BA8C /* ListTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableTableViewController.swift; sourceTree = "<group>"; };
+		5A65ADBC264D6BE600982D2E /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				5A3433B4264B94440081BA8C /* Assets.xcassets */,
 				5A3433B6264B94440081BA8C /* LaunchScreen.storyboard */,
 				5A3433B9264B94440081BA8C /* Info.plist */,
+				5A65ADBC264D6BE600982D2E /* QuestionViewController.swift */,
+				5A3433DF264B9F770081BA8C /* FinishViewController.swift */,
+				5A3433E1264B9F890081BA8C /* AddViewController.swift */,
+				5A3433E9264BBABE0081BA8C /* ListTableViewCell.swift */,
+				5A3433EB264BBBAB0081BA8C /* ListTableTableViewController.swift */,
+				5A3433DB264B94720081BA8C /* WordList素材 */,
 			);
 			path = WordList;
 			sourceTree = "<group>";
@@ -233,6 +251,7 @@
 			files = (
 				5A3433B8264B94440081BA8C /* LaunchScreen.storyboard in Resources */,
 				5A3433B5264B94440081BA8C /* Assets.xcassets in Resources */,
+				5A3433DC264B94720081BA8C /* WordList素材 in Resources */,
 				5A3433B3264B943D0081BA8C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3433EC264BBBAB0081BA8C /* ListTableTableViewController.swift in Sources */,
+				5A3433EA264BBABE0081BA8C /* ListTableViewCell.swift in Sources */,
+				5A3433E0264B9F770081BA8C /* FinishViewController.swift in Sources */,
 				5A3433B0264B943D0081BA8C /* ViewController.swift in Sources */,
+				5A3433E2264B9F890081BA8C /* AddViewController.swift in Sources */,
 				5A3433AC264B943D0081BA8C /* AppDelegate.swift in Sources */,
+				5A65ADBD264D6BE600982D2E /* QuestionViewController.swift in Sources */,
 				5A3433AE264B943D0081BA8C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +461,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T35Y8RV54R;
 				INFOPLIST_FILE = WordList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +480,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T35Y8RV54R;
 				INFOPLIST_FILE = WordList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
